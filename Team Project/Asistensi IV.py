@@ -439,7 +439,6 @@ TANGGAL KEBERANGKATAN : {tanggalkeberangkatan}
 TOTAL HARGA           : Rp. {total:,} ,-
 METODE BAYAR          : {metodes}
 ======================================================================
-
                                         ''')
                                         print("==== Selamat, pesanan Anda telah terkonfirmasi ==== ")
                                         print("         Kami akan segera menghubungi Anda      ")
@@ -632,7 +631,6 @@ METODE BAYAR          : {metodes}
                                                 break
                                             except ValueError:
                                                 print("Masukkan dalam bentuk Angka")
-                                        
                                         print("=================================================================================")
                                     else:
                                         print("===================================")
