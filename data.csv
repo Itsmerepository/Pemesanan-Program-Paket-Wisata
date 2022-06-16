@@ -1,0 +1,4 @@
+Nama Pemesan,Umur,Nomer telepon,Kota tujuan,Jenis Paket Wisata,Tanggal keberangkatan,Total Biaya,Metode Pembayaran,Status Refund,Total Refund
+s,23,134,JAKARTA-BANDUNG,1,2022-12-02,28800000,TRANSFER VIA BANK,Refund,21600000.0
+Nama Pemesan,Umur,Nomer telepon,Kota tujuan,Jenis Paket Wisata,Tanggal keberangkatan,Total Biaya,Metode Pembayaran,Status Refund
+s,23,234567,JOGJA,1,2022-07-02,25200000,TRANSFER VIA E-WALLET,No Refund
