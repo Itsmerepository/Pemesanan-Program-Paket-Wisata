@@ -629,7 +629,6 @@ METODE BAYAR          : {metodes}
                                                 break
                                             except ValueError:
                                                 print("Masukkan dalam bentuk Angka")
-
                                         print("=================================================================================")
                                     else:
                                         print("===================================")
