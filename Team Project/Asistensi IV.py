@@ -433,33 +433,28 @@ ATAS NAMA : RUBY
 ------------------------ Tanda Terima Pesanan ------------------------
 NAMA PEMESAN          : {Nama_pemesan}
 NOMOR TELEPON         : {nomer}
-JENIS PAKET WISATA    : Paket Wisata {jp} {nk}
+JENIS PAKET WISATA    : {jp} {nk}
 JUMLAH ORANG          : {jo}
 TANGGAL KEBERANGKATAN : {tanggalkeberangkatan}
 TOTAL HARGA           : Rp. {total:,} ,-
 METODE BAYAR          : {metodes}
 ======================================================================
 
-                                        ''')                                        
+                                        ''')
                                         print("==== Selamat, pesanan Anda telah terkonfirmasi ==== ")
                                         print("         Kami akan segera menghubungi Anda      ")
                                         print("                Terima Kasih                ")
                                         print("====================================================")
                                         T = "Refund"
-                                        Refund = input("Apakah Anda ingin Mengajukan Refund (Y/T) ? ")
+                                        Refund = input("Apakah Anda ingin Mengajukan Refund (Y/T) = ")
                                         refund = total*0.75
                                         if Refund == "Y" or Refund == "y":
                                             print("==========================================================================================================================")
                                             print("-------------------------------------------------- TANDA TERIMA REFUND --------------------------------------------------")
                                             print("Pesanan Anda telah dibatalkan, sesuai dengan ketentuan kami akan mengembalikan 75% dari total biaya yang telah Anda bayar ")
                                             print("Refund yang Anda terima sebesar = ", refund)
-                                            print("==========================================================================================================================")                            
-                                            header = ['Nama Pemesan', 'Umur', 'Nomer Telepon', 'Kota Tujuan', 'Jenis Paket Wisata', 'Tanggal keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund', 'Total Refund']
-                                            with open('data.csv', 'w', newline='') as f:
-                                                writer = csv.writer(f)
-                                                # write the header
-                                                writer.writerow(header)
-                                                f.close
+                                            print("==========================================================================================================================")
+                                            header = ['Nama Pemesan', 'Umur', 'Nomer telepon', 'Kota tujuan', 'Jenis Paket Wisata', 'Tanggal keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund', 'Total Refund']
                                             datapesan = []
                                             datapesan.append(Nama_pemesan)
                                             datapesan.append(umur_pemesan)
@@ -472,11 +467,13 @@ METODE BAYAR          : {metodes}
                                             datapesan.append(T)
                                             datapesan.append(refund)
                                             with open('data.csv', 'a', newline='') as f:
-                                                writer = csv.writer(f)
-                                                # write the data
-                                                writer.writerow(datapesan)
-                                                f.close()
-                                                break
+                                                    writer = csv.writer(f)
+                                                    # write the header
+                                                    writer.writerow(header)
+                                                    # write the data
+                                                    writer.writerow(datapesan)
+                                                    f.close()
+                                            break
                                         elif Refund == "T" or Refund == "t":
                                             status ="No Refund"
                                             print(f'''
@@ -484,13 +481,14 @@ METODE BAYAR          : {metodes}
 ------------------------ Tanda Terima Pesanan ------------------------
 NAMA PEMESAN          : {Nama_pemesan}
 NOMOR TELEPON         : {nomer}
-JENIS PAKET WISATA    : Paket Wisata {jp} {nk}
+JENIS PAKET WISATA    : {jp} {nk}
 JUMLAH ORANG          : {jo}
 TANGGAL KEBERANGKATAN : {tanggalkeberangkatan}
 TOTAL HARGA           : Rp. {total:,} ,-
 METODE BAYAR          : {metodes}
 ======================================================================
                                         ''')
+                                            header = ['Nama Pemesan', 'Umur', 'Nomer telepon', 'Kota tujuan', 'Jenis Paket Wisata', 'Tanggal keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund']
                                             datapesan = []
                                             datapesan.append(Nama_pemesan)
                                             datapesan.append(umur_pemesan)
@@ -501,12 +499,13 @@ METODE BAYAR          : {metodes}
                                             datapesan.append(total)
                                             datapesan.append(metodes)
                                             datapesan.append(status)
-                                            datapesan.append('-')
                                             with open('data.csv', 'a', newline='') as f:
-                                                writer = csv.writer(f)
-                                                # write the data
-                                                writer.writerow(datapesan)
-                                                f.close()
+                                                    writer = csv.writer(f)
+                                                    # write the header
+                                                    writer.writerow(header)
+                                                    # write the data
+                                                    writer.writerow(datapesan)
+                                                    f.close()
                                             break  
                                         else:
                                             print("Data yang Anda Masukkan Salah")
@@ -549,7 +548,7 @@ METODE BAYAR          : {metodes}
 ------------------------ Tanda Terima Pesanan ------------------------
 NAMA PEMESAN          : {Nama_pemesan}
 NOMOR TELEPON         : {nomer}
-JENIS PAKET WISATA    : Paket Wisata {jp} {nk}
+JENIS PAKET WISATA    : {jp} {nk}
 JUMLAH ORANG          : {jo}
 TANGGAL KEBERANGKATAN : {tanggalkeberangkatan}
 TOTAL HARGA           : Rp. {total:,} ,-
@@ -561,7 +560,7 @@ METODE BAYAR          : {metodes}
                                         print("         Kami akan segera menghubungi Anda      ")
                                         print("                Terima Kasih                ")
                                         print("====================================================")
-                                        Refund = input("Apakah Anda ingin Mengajukan Refund (Y/T) ? ")
+                                        Refund = input("Apakah Anda ingin Mengajukan Refund (Y/T) = ")
                                         refund = total*0.75
                                         if Refund == "Y" or Refund == "y":
                                                 print("==========================================================================================================================")
@@ -569,6 +568,7 @@ METODE BAYAR          : {metodes}
                                                 print("Pesanan Anda telah dibatalkan, sesuai dengan ketentuan kami akan mengembalikan 75% dari total biaya yang telah Anda bayar ")
                                                 print("Refund yang Anda terima sebesar = ", refund)
                                                 print("==========================================================================================================================")
+                                                header = ['Nama Pemesan', 'Umur', 'Nomer telepon', 'Kota tujuan', 'Jenis Paket Wisata', 'Tanggal keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund', 'Total Refund']
                                                 datapesan = []
                                                 datapesan.append(Nama_pemesan)
                                                 datapesan.append(umur_pemesan)
@@ -582,6 +582,8 @@ METODE BAYAR          : {metodes}
                                                 datapesan.append(refund)
                                                 with open('data.csv', 'a',newline='') as f:
                                                     writer = csv.writer(f)
+                                                    # write the header
+                                                    writer.writerow(header)
                                                     # write the data
                                                     writer.writerow(datapesan)
                                                     f.close()
@@ -593,13 +595,14 @@ METODE BAYAR          : {metodes}
 ------------------------ Tanda Terima Pesanan ------------------------
 NAMA PEMESAN          : {Nama_pemesan}
 NOMOR TELEPON         : {nomer}
-JENIS PAKET WISATA    : Paket Wisata {jp} {nk}
+JENIS PAKET WISATA    : {jp} {nk}
 JUMLAH ORANG          : {jo}
 TANGGAL KEBERANGKATAN : {tanggalkeberangkatan}
 TOTAL HARGA           : Rp. {total:,} ,-
 METODE BAYAR          : {metodes}
 ======================================================================
-                                        ''')                                            
+                                        ''')
+                                            header = ['Nama Pemesan', 'Umur', 'Nomer telepon', 'Kota tujuan', 'Jenis Paket Wisata', 'Tanggal keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund']
                                             datapesan = []
                                             datapesan.append(Nama_pemesan)
                                             datapesan.append(umur_pemesan)
@@ -610,9 +613,10 @@ METODE BAYAR          : {metodes}
                                             datapesan.append(total)
                                             datapesan.append(metodes)
                                             datapesan.append(status)
-                                            datapesan.append("-")
                                             with open('data.csv', 'a', newline='') as f:
                                                     writer = csv.writer(f)
+                                                    # write the header
+                                                    writer.writerow(header)
                                                     # write the data
                                                     writer.writerow(datapesan)
                                                     f.close()
@@ -629,7 +633,7 @@ METODE BAYAR          : {metodes}
                                                 break
                                             except ValueError:
                                                 print("Masukkan dalam bentuk Angka")
-
+                                        
                                         print("=================================================================================")
                                     else:
                                         print("===================================")
