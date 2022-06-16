@@ -439,8 +439,12 @@ TANGGAL KEBERANGKATAN : {tanggalkeberangkatan}
 TOTAL HARGA           : Rp. {total:,} ,-
 METODE BAYAR          : {metodes}
 ======================================================================
+<<<<<<< HEAD
 
                                         ''')                                        
+=======
+                                        ''')
+>>>>>>> 041cab786af2ac096becbbc838ef256fd47a017c
                                         print("==== Selamat, pesanan Anda telah terkonfirmasi ==== ")
                                         print("         Kami akan segera menghubungi Anda      ")
                                         print("                Terima Kasih                ")
@@ -503,10 +507,17 @@ METODE BAYAR          : {metodes}
                                             datapesan.append(status)
                                             datapesan.append('-')
                                             with open('data.csv', 'a', newline='') as f:
+<<<<<<< HEAD
                                                 writer = csv.writer(f)
                                                 # write the data
                                                 writer.writerow(datapesan)
                                                 f.close()
+=======
+                                                    writer = csv.writer(f)
+                                                    # write the data
+                                                    writer.writerow(datapesan)
+                                                    f.close()
+>>>>>>> 041cab786af2ac096becbbc838ef256fd47a017c
                                             break  
                                         else:
                                             print("Data yang Anda Masukkan Salah")
@@ -599,7 +610,11 @@ TANGGAL KEBERANGKATAN : {tanggalkeberangkatan}
 TOTAL HARGA           : Rp. {total:,} ,-
 METODE BAYAR          : {metodes}
 ======================================================================
+<<<<<<< HEAD
                                         ''')                                            
+=======
+                                        ''')
+>>>>>>> 041cab786af2ac096becbbc838ef256fd47a017c
                                             datapesan = []
                                             datapesan.append(Nama_pemesan)
                                             datapesan.append(umur_pemesan)
@@ -629,7 +644,10 @@ METODE BAYAR          : {metodes}
                                                 break
                                             except ValueError:
                                                 print("Masukkan dalam bentuk Angka")
+<<<<<<< HEAD
 
+=======
+>>>>>>> 041cab786af2ac096becbbc838ef256fd47a017c
                                         print("=================================================================================")
                                     else:
                                         print("===================================")
