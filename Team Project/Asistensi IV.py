@@ -433,7 +433,7 @@ ATAS NAMA : RUBY
 ------------------------ Tanda Terima Pesanan ------------------------
 NAMA PEMESAN          : {Nama_pemesan}
 NOMOR TELEPON         : {nomer}
-JENIS PAKET WISATA    : {jp} {nk}
+JENIS PAKET WISATA    : Paket Wisata {jp} {nk}
 JUMLAH ORANG          : {jo}
 TANGGAL KEBERANGKATAN : {tanggalkeberangkatan}
 TOTAL HARGA           : Rp. {total:,} ,-
@@ -446,7 +446,7 @@ METODE BAYAR          : {metodes}
                                         print("                Terima Kasih                ")
                                         print("====================================================")
                                         T = "Refund"
-                                        Refund = input("Apakah Anda ingin Mengajukan Refund (Y/T) = ")
+                                        Refund = input("Apakah Anda ingin Mengajukan Refund (Y/T) ? ")
                                         refund = total*0.75
                                         if Refund == "Y" or Refund == "y":
                                             print("==========================================================================================================================")
@@ -484,7 +484,7 @@ METODE BAYAR          : {metodes}
 ------------------------ Tanda Terima Pesanan ------------------------
 NAMA PEMESAN          : {Nama_pemesan}
 NOMOR TELEPON         : {nomer}
-JENIS PAKET WISATA    : {jp} {nk}
+JENIS PAKET WISATA    : Paket Wisata {jp} {nk}
 JUMLAH ORANG          : {jo}
 TANGGAL KEBERANGKATAN : {tanggalkeberangkatan}
 TOTAL HARGA           : Rp. {total:,} ,-
@@ -549,7 +549,7 @@ METODE BAYAR          : {metodes}
 ------------------------ Tanda Terima Pesanan ------------------------
 NAMA PEMESAN          : {Nama_pemesan}
 NOMOR TELEPON         : {nomer}
-JENIS PAKET WISATA    : {jp} {nk}
+JENIS PAKET WISATA    : Paket Wisata {jp} {nk}
 JUMLAH ORANG          : {jo}
 TANGGAL KEBERANGKATAN : {tanggalkeberangkatan}
 TOTAL HARGA           : Rp. {total:,} ,-
@@ -561,7 +561,7 @@ METODE BAYAR          : {metodes}
                                         print("         Kami akan segera menghubungi Anda      ")
                                         print("                Terima Kasih                ")
                                         print("====================================================")
-                                        Refund = input("Apakah Anda ingin Mengajukan Refund (Y/T) = ")
+                                        Refund = input("Apakah Anda ingin Mengajukan Refund (Y/T) ? ")
                                         refund = total*0.75
                                         if Refund == "Y" or Refund == "y":
                                                 print("==========================================================================================================================")
@@ -593,7 +593,7 @@ METODE BAYAR          : {metodes}
 ------------------------ Tanda Terima Pesanan ------------------------
 NAMA PEMESAN          : {Nama_pemesan}
 NOMOR TELEPON         : {nomer}
-JENIS PAKET WISATA    : {jp} {nk}
+JENIS PAKET WISATA    : Paket Wisata {jp} {nk}
 JUMLAH ORANG          : {jo}
 TANGGAL KEBERANGKATAN : {tanggalkeberangkatan}
 TOTAL HARGA           : Rp. {total:,} ,-
