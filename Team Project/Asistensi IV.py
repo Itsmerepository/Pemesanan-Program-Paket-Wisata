@@ -454,7 +454,7 @@ METODE BAYAR          : {metodes}
                                             print("Pesanan Anda telah dibatalkan, sesuai dengan ketentuan kami akan mengembalikan 75% dari total biaya yang telah Anda bayar ")
                                             print("Refund yang Anda terima sebesar = ", refund)
                                             print("==========================================================================================================================")
-                                            header = ['Nama Pemesan', 'Umur', 'Nomer telepon', 'Kota tujuan', 'Jenis Paket Wisata', 'Tanggal keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund', 'Total Refund']
+                                            header = ['Nama Pemesan', 'Umur', 'Nomer Telepon', 'Kota Tujuan', 'Jenis Paket Wisata', 'Tanggal keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund', 'Total Refund']
                                             datapesan = []
                                             datapesan.append(Nama_pemesan)
                                             datapesan.append(umur_pemesan)
@@ -488,7 +488,7 @@ TOTAL HARGA           : Rp. {total:,} ,-
 METODE BAYAR          : {metodes}
 ======================================================================
                                         ''')
-                                            header = ['Nama Pemesan', 'Umur', 'Nomer telepon', 'Kota tujuan', 'Jenis Paket Wisata', 'Tanggal keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund']
+                                            header = ['Nama Pemesan', 'Umur', 'Nomer Telepon', 'Kota Tujuan', 'Jenis Paket Wisata', 'Tanggal Keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund', 'Total Refund']
                                             datapesan = []
                                             datapesan.append(Nama_pemesan)
                                             datapesan.append(umur_pemesan)
@@ -499,6 +499,7 @@ METODE BAYAR          : {metodes}
                                             datapesan.append(total)
                                             datapesan.append(metodes)
                                             datapesan.append(status)
+                                            datapesan.append('-')
                                             with open('data.csv', 'a', newline='') as f:
                                                     writer = csv.writer(f)
                                                     # write the header
@@ -568,7 +569,7 @@ METODE BAYAR          : {metodes}
                                                 print("Pesanan Anda telah dibatalkan, sesuai dengan ketentuan kami akan mengembalikan 75% dari total biaya yang telah Anda bayar ")
                                                 print("Refund yang Anda terima sebesar = ", refund)
                                                 print("==========================================================================================================================")
-                                                header = ['Nama Pemesan', 'Umur', 'Nomer telepon', 'Kota tujuan', 'Jenis Paket Wisata', 'Tanggal keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund', 'Total Refund']
+                                                header = ['Nama Pemesan', 'Umur', 'Nomer telepon', 'Kota Tujuan', 'Jenis Paket Wisata', 'Tanggal Keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund', 'Total Refund']
                                                 datapesan = []
                                                 datapesan.append(Nama_pemesan)
                                                 datapesan.append(umur_pemesan)
@@ -602,7 +603,7 @@ TOTAL HARGA           : Rp. {total:,} ,-
 METODE BAYAR          : {metodes}
 ======================================================================
                                         ''')
-                                            header = ['Nama Pemesan', 'Umur', 'Nomer telepon', 'Kota tujuan', 'Jenis Paket Wisata', 'Tanggal keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund']
+                                            header = ['Nama Pemesan', 'Umur', 'Nomer Telepon', 'Kota Tujuan', 'Jenis Paket Wisata', 'Tanggal Keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund', 'Total Refund']
                                             datapesan = []
                                             datapesan.append(Nama_pemesan)
                                             datapesan.append(umur_pemesan)
@@ -613,6 +614,7 @@ METODE BAYAR          : {metodes}
                                             datapesan.append(total)
                                             datapesan.append(metodes)
                                             datapesan.append(status)
+                                            datapesan.append("-")
                                             with open('data.csv', 'a', newline='') as f:
                                                     writer = csv.writer(f)
                                                     # write the header

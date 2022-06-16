@@ -1,8 +1,10 @@
-Nama Pemesan,Umur,Nomer telepon,Kota tujuan,Jenis Paket Wisata,Tanggal keberangkatan,Total Biaya,Metode Pembayaran,Status Refund,Total Refund
-s,23,134,JAKARTA-BANDUNG,1,2022-12-02,28800000,TRANSFER VIA BANK,Refund,21600000.0
-Nama Pemesan,Umur,Nomer telepon,Kota tujuan,Jenis Paket Wisata,Tanggal keberangkatan,Total Biaya,Metode Pembayaran,Status Refund
-s,23,234567,JOGJA,1,2022-07-02,25200000,TRANSFER VIA E-WALLET,No Refund
-Nama Pemesan,Umur,Nomer telepon,Kota tujuan,Jenis Paket Wisata,Tanggal keberangkatan,Total Biaya,Metode Pembayaran,Status Refund
-s,23,1234,LABUAN BAJO,1,2022-12-02,20400000,TRANSFER VIA BANK,No Refund
-Nama Pemesan,Umur,Nomer telepon,Kota tujuan,Jenis Paket Wisata,Tanggal keberangkatan,Total Biaya,Metode Pembayaran,Status Refund,Total Refund
-s,23,123,JAKARTA-BANDUNG,2,2022-02-02,43800000,TRANSFER VIA E-WALLET,Refund,32850000.0
+Nama Pemesan,Umur,Nomer Telepon,Kota Tujuan,Jenis Paket Wisata,Tanggal keberangkatan,Total Biaya,Metode Pembayaran,Status Refund,Total Refund
+Salma,18,8965433356,BALI,1,2022-07-02,33600000,TRANSFER VIA BANK,Refund,25200000.0
+Nama Pemesan,Umur,Nomer Telepon,Kota Tujuan,Jenis Paket Wisata,Tanggal Keberangkatan,Total Biaya,Metode Pembayaran,Status Refund,Total Refund
+Ruby,17,87654322345,LOMBOK,2,2022-08-08,33000000,TRANSFER VIA BANK,No Refund,-
+Nama Pemesan,Umur,Nomer telepon,Kota Tujuan,Jenis Paket Wisata,Tanggal Keberangkatan,Total Biaya,Metode Pembayaran,Status Refund,Total Refund
+Yashinta,19,8976543567,JOGJA,1,2022-09-09,31500000,TRANSFER VIA E-WALLET,Refund,23625000.0
+Nama Pemesan,Umur,Nomer Telepon,Kota Tujuan,Jenis Paket Wisata,Tanggal Keberangkatan,Total Biaya,Metode Pembayaran,Status Refund,Total Refund
+Petra,20,8765432234,JAKARTA-BANDUNG,1,2022-10-10,45600000,TRANSFER VIA E-WALLET,No Refund,-
+Nama Pemesan,Umur,Nomer Telepon,Kota Tujuan,Jenis Paket Wisata,Tanggal keberangkatan,Total Biaya,Metode Pembayaran,Status Refund,Total Refund
+Irfan,19,986543455,LABUAN BAJO,2,2022-11-11,6900000,TRANSFER VIA BANK,Refund,5175000.0
