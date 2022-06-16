@@ -455,7 +455,7 @@ METODE BAYAR          : {metodes}
                                             print("Refund yang Anda terima sebesar = ", refund)
                                             print("==========================================================================================================================")                            
                                             header = ['Nama Pemesan', 'Umur', 'Nomer Telepon', 'Kota Tujuan', 'Jenis Paket Wisata', 'Tanggal keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund', 'Total Refund']
-                                            with open('data.csv', 'w', newline='') as f:
+                                            with open('data.csv', 'a', newline='') as f:
                                                 writer = csv.writer(f)
                                                 # write the header
                                                 writer.writerow(header)
