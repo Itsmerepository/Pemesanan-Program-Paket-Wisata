@@ -433,7 +433,7 @@ ATAS NAMA : RUBY
 ------------------------ Tanda Terima Pesanan ------------------------
 NAMA PEMESAN          : {Nama_pemesan}
 NOMOR TELEPON         : {nomer}
-JENIS PAKET WISATA    : {jp} {nk}
+JENIS PAKET WISATA    : Paket Wisata {jp} {nk}
 JUMLAH ORANG          : {jo}
 TANGGAL KEBERANGKATAN : {tanggalkeberangkatan}
 TOTAL HARGA           : Rp. {total:,} ,-
@@ -481,14 +481,13 @@ METODE BAYAR          : {metodes}
 ------------------------ Tanda Terima Pesanan ------------------------
 NAMA PEMESAN          : {Nama_pemesan}
 NOMOR TELEPON         : {nomer}
-JENIS PAKET WISATA    : {jp} {nk}
+JENIS PAKET WISATA    : Paket Wisata {jp} {nk}
 JUMLAH ORANG          : {jo}
 TANGGAL KEBERANGKATAN : {tanggalkeberangkatan}
 TOTAL HARGA           : Rp. {total:,} ,-
 METODE BAYAR          : {metodes}
 ======================================================================
                                         ''')
-                                            header = ['Nama Pemesan', 'Umur', 'Nomer Telepon', 'Kota Tujuan', 'Jenis Paket Wisata', 'Tanggal Keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund', 'Total Refund']
                                             datapesan = []
                                             datapesan.append(Nama_pemesan)
                                             datapesan.append(umur_pemesan)
@@ -549,7 +548,7 @@ METODE BAYAR          : {metodes}
 ------------------------ Tanda Terima Pesanan ------------------------
 NAMA PEMESAN          : {Nama_pemesan}
 NOMOR TELEPON         : {nomer}
-JENIS PAKET WISATA    : {jp} {nk}
+JENIS PAKET WISATA    : Paket Wisata {jp} {nk}
 JUMLAH ORANG          : {jo}
 TANGGAL KEBERANGKATAN : {tanggalkeberangkatan}
 TOTAL HARGA           : Rp. {total:,} ,-
@@ -569,7 +568,6 @@ METODE BAYAR          : {metodes}
                                                 print("Pesanan Anda telah dibatalkan, sesuai dengan ketentuan kami akan mengembalikan 75% dari total biaya yang telah Anda bayar ")
                                                 print("Refund yang Anda terima sebesar = ", refund)
                                                 print("==========================================================================================================================")
-                                                header = ['Nama Pemesan', 'Umur', 'Nomer telepon', 'Kota Tujuan', 'Jenis Paket Wisata', 'Tanggal Keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund', 'Total Refund']
                                                 datapesan = []
                                                 datapesan.append(Nama_pemesan)
                                                 datapesan.append(umur_pemesan)
@@ -596,14 +594,13 @@ METODE BAYAR          : {metodes}
 ------------------------ Tanda Terima Pesanan ------------------------
 NAMA PEMESAN          : {Nama_pemesan}
 NOMOR TELEPON         : {nomer}
-JENIS PAKET WISATA    : {jp} {nk}
+JENIS PAKET WISATA    : Paket Wisata {jp} {nk}
 JUMLAH ORANG          : {jo}
 TANGGAL KEBERANGKATAN : {tanggalkeberangkatan}
 TOTAL HARGA           : Rp. {total:,} ,-
 METODE BAYAR          : {metodes}
 ======================================================================
                                         ''')
-                                            header = ['Nama Pemesan', 'Umur', 'Nomer Telepon', 'Kota Tujuan', 'Jenis Paket Wisata', 'Tanggal Keberangkatan', 'Total Biaya', 'Metode Pembayaran', 'Status Refund', 'Total Refund']
                                             datapesan = []
                                             datapesan.append(Nama_pemesan)
                                             datapesan.append(umur_pemesan)
