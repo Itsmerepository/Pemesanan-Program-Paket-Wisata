@@ -500,8 +500,6 @@ METODE BAYAR          : {metodes}
                                             datapesan.append('-')
                                             with open('data.csv', 'a', newline='') as f:
                                                     writer = csv.writer(f)
-                                                    # write the header
-                                                    writer.writerow(header)
                                                     # write the data
                                                     writer.writerow(datapesan)
                                                     f.close()
@@ -580,8 +578,6 @@ METODE BAYAR          : {metodes}
                                                 datapesan.append(refund)
                                                 with open('data.csv', 'a',newline='') as f:
                                                     writer = csv.writer(f)
-                                                    # write the header
-                                                    writer.writerow(header)
                                                     # write the data
                                                     writer.writerow(datapesan)
                                                     f.close()
@@ -613,8 +609,6 @@ METODE BAYAR          : {metodes}
                                             datapesan.append("-")
                                             with open('data.csv', 'a', newline='') as f:
                                                     writer = csv.writer(f)
-                                                    # write the header
-                                                    writer.writerow(header)
                                                     # write the data
                                                     writer.writerow(datapesan)
                                                     f.close()
