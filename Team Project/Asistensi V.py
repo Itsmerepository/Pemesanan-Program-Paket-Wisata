@@ -4,7 +4,6 @@ from genericpath import exists
 from msilib.schema import tables
 from operator import index
 from socketserver import ThreadingUDPServer
-from tkinter import END
 import csv
 from numpy import append, maximum
 
