@@ -21,7 +21,7 @@ while True:
                     Menu = int(input("Masukkan pilihan menu Anda = "))
                     break
                 except ValueError:
-                    print("Masukkan dalam bentuk Angka")
+                    print("Masukkan dalam bentuk angka")
     print("==================================================")
     while Menu != 3:
         if Menu == 1:
@@ -42,7 +42,7 @@ while True:
                         Menu = int(input("Masukkan pilihan menu Anda = "))
                         break
                     except ValueError:
-                        print("Masukkan dalam bentuk Angka") 
+                        print("Masukkan dalam bentuk angka") 
                 if Menu == 2:
                     print("=================================================================================")
                     print("!!! Silahkan lakukan register terlebih dahulu !!!")
@@ -263,7 +263,7 @@ di Sumba Timur , dan mengelilingi exoticnya pulau Lombok untuk lebih mengenal su
                                         raise ValueError
                                     break
                                 except ValueError:
-                                    print(" Masukkan Input yang Valid ")
+                                    print(" Masukkan input yang valid ")
                     #jk = int(input('[2] Kota = '))
                     while True:
                                 try:
@@ -339,7 +339,7 @@ di Sumba Timur , dan mengelilingi exoticnya pulau Lombok untuk lebih mengenal su
                             Menu = int(input("Masukkan pilihan menu Anda = "))
                             break
                         except ValueError:
-                            print("Masukkan dalam bentuk Angka")
+                            print("Masukkan dalam bentuk angka")
                     print("==================================================")
                 elif x== "T" or x == "t" :
                     print("=================================================================================")
@@ -349,7 +349,7 @@ di Sumba Timur , dan mengelilingi exoticnya pulau Lombok untuk lebih mengenal su
                             Menu = int(input("Masukkan pilihan menu Anda = "))
                             break
                         except ValueError:
-                            print("Masukkan dalam bentuk Angka") 
+                            print("Masukkan dalam bentuk angka") 
                     if Menu == 1:
                         print("=================================================================================")
                     elif Menu == 2:
@@ -412,7 +412,7 @@ di Sumba Timur , dan mengelilingi exoticnya pulau Lombok untuk lebih mengenal su
                                         metode = int(input("Sistem Pembayaran : "))
                                         break
                                     except ValueError:
-                                        print("Masukkan dalam bentuk Angka")
+                                        print("Masukkan dalam bentuk angka")
                                 if metode == 1:
                                     metodes = "TRANSFER VIA BANK"
                                     print(metodes)
@@ -445,7 +445,7 @@ METODE BAYAR          : {metodes}
                                         print("                Terima Kasih                ")
                                         print("====================================================")
                                         T = "Refund"
-                                        Refund = input("Apakah Anda ingin Mengajukan Refund (Y/T) ? ")
+                                        Refund = input("Apakah Anda ingin mengajukan refund (Y/T) ? ")
                                         refund = total*0.75
                                         if Refund == "Y" or Refund == "y":
                                             print("==========================================================================================================================")
@@ -560,7 +560,7 @@ METODE BAYAR          : {metodes}
                                         print("         Kami akan segera menghubungi Anda      ")
                                         print("                Terima Kasih                ")
                                         print("====================================================")
-                                        Refund = input("Apakah Anda ingin Mengajukan Refund (Y/T) ? ")
+                                        Refund = input("Apakah Anda ingin mengajukan refund (Y/T) ? ")
                                         refund = total*0.75
                                         if Refund == "Y" or Refund == "y":
                                                 print("==========================================================================================================================")
@@ -627,26 +627,26 @@ METODE BAYAR          : {metodes}
                                                 Menu = int(input("Masukkan pilihan menu Anda = "))
                                                 break
                                             except ValueError:
-                                                print("Masukkan dalam bentuk Angka")
+                                                print("Masukkan dalam bentuk angka")
                                         print("=================================================================================")
                                     else:
                                         print("===================================")
-                                        print("== Data yang anda masukkan salah ==")
+                                        print("== Data yang Anda Masukkan Salah ==")
                                         print("===================================")
                                         break
                                 else:
                                     print("===================================")
-                                    print("== Data yang anda masukkan salah ==")
+                                    print("== Data yang Anda Masukkan Salah ==")
                                     print("===================================")
                                     break
                             else:
                                 print("===================================")
-                                print("== Data yang anda masukkan salah ==")
+                                print("== Data yang Anda Masukkan Salah ==")
                                 print("===================================")
                                 break
         else:
             print("===================================")
-            print("== Data yang anda masukkan salah ==")
+            print("== Data yang Anda Masukkan Salah ==")
             print("===================================")
             break
     exit()
